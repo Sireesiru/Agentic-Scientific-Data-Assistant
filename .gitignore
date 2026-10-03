@@ -1,0 +1,52 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+metadata_agent_env/
+venv/
+.venv/
+
+# Editor / backup files
+*.swp
+*.swo
+*.backup
+*~
+
+# Scientific datasets
+*.h5
+*.hdf5
+*.nxs
+*.h5.nxs
+*.gwy
+*.mrc
+*.czi
+*.spm
+*.nid
+*.ibw
+
+# ML models
+*.pt
+*.pth
+*.ckpt
+
+# Generated outputs
+outputs/
+plots/
+results/
+tmp/
+
+# Logs
+*.log
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
